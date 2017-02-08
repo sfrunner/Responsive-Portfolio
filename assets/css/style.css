@@ -1,0 +1,984 @@
+﻿header{
+	background: #ffffff;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	width: 1224px;
+	height: 90px;
+
+}
+
+#mynamebox{
+	margin-left: 85px;
+	padding-top: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 250px;
+	height: 80px;
+	float:left;
+}
+
+#navbox{
+	margin-right: 140px;
+	float: left;
+	width: 255px;
+	height: 65px;
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	position: relative;
+	left:500px
+}
+
+.navlinks{
+	padding: 3px;
+	float: left;
+	width: 30%;
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #cccccc;
+
+}
+
+#navlinksend{
+	padding: 3px;
+	float: left;
+	width: 30%;
+
+}
+
+#mainboxbackground{
+	overflow: auto;
+	width: 1224px;
+	height: 575px;
+	background-image: url("../images/old_moon.png");
+
+}
+
+/*Used to override to new height for Portfolio Page */
+
+#mbbheightportfolio{
+	overflow: auto;
+	width: 1224px;
+	height: 1165px;
+	background-image: url("../images/old_moon.png");
+
+}
+
+#maincontentwindow{
+	margin-top: 38px;
+	margin-left: 85px;
+	height: 475px;
+	width:	650px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+	
+}
+
+/*Used to override new height for Portfolio Page */
+#mainportfoliowindow{
+	margin-top: 38px;
+	margin-left: 85px;
+	height: 1065px;
+	width:	650px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+
+}
+
+#maincontentheader{
+	padding-top: 35px;
+	margin-left: 33px;
+	margin-right: 33px;
+	height: 67px;
+	width: 592px;
+	padding-top: 10px;
+	text-align: left;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+
+}
+
+#mainindeximage{
+	margin-left: 33px;
+	margin-top: 30px;
+	float: left;
+	width: 30%;
+	height: 30%;
+		
+}
+
+#paragraph1{
+	margin-top: 24px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	margin-left: 5px;
+	line-height: 1.5;
+	text-align: left;
+	float: left;
+	width: 59%;
+	margin-right: 33px;
+
+}
+
+#paragraph2{
+	margin-left: 33px;
+	clear: both;
+	line-height: 1.5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	margin-right: 33px;
+
+}
+
+#textboxheaderfirst{
+	margin-top: 100px;
+	margin-left: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	font-size: large;
+	color: #777777;
+
+}
+
+
+.textboxheader{
+	margin-top: 20px;
+	margin-left: 33px;
+	margin-right: 33px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	font-size: large;
+	color: #777777;
+
+}
+
+.textbox{
+	margin-top: 5px;
+	margin-left: 33px;
+	margin-right: 33px;
+	width: 80%;
+	height: 20px;
+	border: thin;
+	border-style: solid;
+	border-color: #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+/* This overrides the textbox height for the message box */
+#textboxmessage{
+	margin-top: 5px;
+	margin-left: 33px;
+	margin-right: 33px;
+	width: 80%;
+	height: 140px;
+	border: thin;
+	border-style: solid;
+	border-color: #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+#submitbutton{
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 10px;
+	margin-left: 33px;
+	margin-right: 33px;
+	font-size: medium;
+	padding: 7px;
+
+}
+
+.imageboxleft{
+
+	float: left;
+	width: 280px;
+	height: 280px;
+	margin-left: 33px;	
+	margin-top: 33px;
+	
+}
+
+.imageboxright{
+	margin-left: 31px;
+	float: left;
+	width: 280px;
+	height: 280px;	
+	margin-top: 33px;
+	
+}
+
+.portfolioimagesleft{
+	width: 280px;
+	height: 280px;
+	position: relative;
+	z-index: 1;
+	float: left;
+
+}
+
+.portfolioimagesright{
+	width: 280px;
+	height: 280px;
+	position: relative;
+	z-index: 1;
+	float: left;
+
+}
+
+
+.portfolioimageheaderleft{
+	float: left;
+	top: -90px;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+
+}
+
+.portfolioimageheaderright{
+	float: left;
+	top: -90px;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+
+}
+
+#connectwindow{
+	width: 270px;
+	height: 175px;
+	margin-top: 38px;
+	margin-left: 45px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+
+}
+
+#connectheader{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 25%;
+	width: 209px;
+	text-align: left;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	float: left;	
+
+}
+
+#connectlogossection{
+	margin-top: 65px;
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 62%;
+	
+}
+
+.connectlogos{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 63px;
+	height: 66px;
+	margin-bottom: -3px;
+	
+}
+
+#connectlogosstack{
+	padding-left:1%;
+	width:63px;
+	height:59px;
+	padding-bottom:-1px;
+	box-sizing: border-box;
+}
+
+footer{
+	padding-top: 35px;
+	background: #666666;
+	width: 1224px;
+	height: 55px;
+	text-align: center;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 8px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 980px) {
+header {
+	width:100% 
+}
+    
+h2{
+    font-size:150%;
+}
+    
+#mynamebox {
+    padding:1.5% 0% 1.5% 0%;
+    width:25%;
+    height:100%;
+    box-sizing: border-box;
+    font-size:100%;
+    float:left;
+}
+          
+#navbox {
+	float:left;
+	margin-top:5px;
+	margin-right:3%;
+    width:34%;
+    position:relative;
+    left:28%;
+    box-sizing: border-box;
+}
+    
+.navlinks{
+    padding-right:3%;
+    padding-left:3%;
+    font-size:100%;
+    width:25%;
+	
+}
+
+#navlinksend{
+	padding-left:3%;
+	width:25%;
+	font-size:100%;
+}
+    
+#mainboxbackground {
+    width:100%;
+    height:100%;
+}
+
+#mbbheightportfolio {
+    width:100%;
+    height:100%;
+}
+	
+#maincontentwindow {
+    width:53%;
+    height:100%;
+    margin-bottom:5%;
+}
+	
+#mainportfoliowindow {
+    width:53%;
+    height:150%;
+    padding-bottom:4%;
+    margin-bottom:5%;
+}
+
+#maincontentheader{
+	width:91%;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+
+#mainindeximage{
+	width: 91%;
+	margin-left:5%;
+}
+
+#paragraph1{
+	margin-left:5%;
+	width:91%;
+	font-size:medium;
+	line-height:1.70;
+	
+}
+    
+#paragraph2{
+	margin-left:5%;
+	width:91%;
+	font-size:medium;
+	line-height:1.70;
+}
+
+#textboxheaderfirst{
+	margin-left:5%;
+}
+
+
+.textboxheader{
+	margin-left:5%;
+}
+
+.textbox{
+	margin-left:5%;
+	margin-right:5%;
+	width:90.75%;
+}
+
+#textboxmessage{
+	margin-left:5%;
+	margin-right:5%;
+	width:89.75%;
+}
+
+
+.imageboxleft{
+	margin-left:5%;
+	width:91%;
+	height:91%;
+	margin-top:7.1%;
+	margin-bottom:-11%;
+}
+
+#submitbutton{
+	width:30%;
+	margin-left:5%;
+	margin-bottom:5%;
+	
+}
+.imageboxright{
+	margin-left:5%;
+	width:91%;
+	height:91%;
+	margin-top:5.1%;
+	margin-bottom:-11%;
+}
+
+.portfolioimagesleft{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimagesright{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimageheaderleft{
+	font-size:100%;
+}
+
+.portfolioimageheaderright{
+	font-size:100%;
+}
+
+#connectwindow{
+	width:26%;
+	margin-left:3.67%;
+	box-sizing: border-box;	
+}
+
+h3{
+	font-size:100%;	
+}
+
+#connectheader{
+	margin-left:11.1%;
+	margin-right:11.1%;
+	width:77.4%;
+	box-sizing: border-box;
+}
+
+#connectlogossection{
+	margin-left:11.1%;
+	margin-right:11.1%;
+	margin-top:30%;
+}
+
+.connectlogos{
+	margin-right:-1%;
+	width:33%;
+	height:52%;
+	margin-bottom:2%;
+		
+}
+
+#connectlogosstack{
+	padding-left:1%;
+	width:30%;
+	height:52%;
+	padding-bottom:3%;
+	box-sizing: border-box;
+}
+
+footer{
+	width:100%;
+	font-size:85%;
+}
+
+}
+@media screen and (max-width: 780px) {
+header {
+	width:100%;
+	color:blue;
+}
+    
+h2{
+    font-size:150%;
+}
+    
+#mynamebox {
+    padding:1.5% 0% 1.5% 0%;
+    margin-left: 3.67%;
+    width:25%;
+    height:100%;
+    box-sizing: border-box;
+    font-size:100%;
+}
+          
+#navbox {
+	float:left;
+	margin-top:5px;
+	margin-right:3%;
+    width:34%;
+    position:relative;
+    left:33%;
+    box-sizing: border-box;
+}
+    
+.navlinks{
+    padding-right:3%;
+    padding-left:3%;
+    font-size:100%;
+    width:25%;
+	
+}
+
+#navlinksend{
+	padding-left:3%;
+	width:25%;
+	font-size:100%;
+}
+    
+#mainboxbackground {
+    width:100%;
+    height:100%;
+}
+
+#mbbheightportfolio {
+    width:100%;
+    height:100%;
+}
+	
+#maincontentwindow {
+	margin-left:3.67%;
+    width:81%;
+    height:100%;
+    margin-bottom:0%;
+    padding-left:5%;
+    padding-right:7%;
+}
+	
+#mainportfoliowindow {
+    margin-left:3.67%;
+    width:81%;
+    height:150%;
+    margin-bottom:0%;
+    padding-left:5%;
+    padding-right:7%;
+}
+
+
+#maincontentheader{
+	width:104%;
+	margin-left:0%;
+	margin-right:-3%;
+	
+}
+
+#mainindeximage{
+	width: 45.5%;
+	margin-left:0%;
+	margin-right:3%;
+}
+
+#paragraph1{
+	width:51%;
+	font-size:medium;
+	line-height:1.70;
+	margin-right:0px;
+	margin-left:0px;
+	
+}
+    
+#paragraph2{
+	width:100%;
+	font-size:medium;
+	line-height:1.70;
+	clear:none;
+	margin-right:0px;
+	margin-left:0px;
+	
+
+}
+
+#textboxheaderfirst{
+	margin-left:0%;
+}
+
+
+.textboxheader{
+	margin-left:0%;
+}
+
+.textbox{
+	margin-left:0%;
+	margin-right:0%;
+	width:100%;
+}
+
+#textboxmessage{
+	margin-left:0%;
+	margin-right:5%;
+	width:99.5%;
+}
+
+#submitbutton{
+	width:20%;
+	margin-left:0%;
+	margin-bottom:5%;
+	
+}
+
+.imageboxleft{
+	margin-left:0%;
+	width:47%;
+	height:91%;
+	margin-top:7.1%;
+	margin-bottom:-11%;
+}
+
+.imageboxright{
+	width:47%;
+	height:91%;
+	margin-top:7.1%;
+	margin-bottom:-11%;
+}
+
+.portfolioimagesleft{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimagesright{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimageheaderleft{
+	font-size:100%;
+}
+
+.portfolioimageheaderright{
+	font-size:100%;
+}
+
+#connectwindow{
+	width:93.1%;
+	margin-left:3.67%;	
+	margin-bottom:5%;
+}
+
+h3{
+	font-size:100%;	
+}
+
+#connectheader{
+	width:91%;
+	margin-left:5%;
+}
+
+#connectlogossection{
+	margin-left:5%;
+	margin-right:11.1%;
+	margin-top:0%;
+}
+
+.connectlogos{
+	margin-right:0%;
+	width:12%;
+	height:62%;
+	margin-bottom:2.75%;
+		
+}
+
+#connectlogosstack{
+	padding-left:0.7%;
+	width:12.25%;
+	height:98%;
+	padding-top: 4.75%;
+	box-sizing: border-box;
+}
+
+footer{
+	width:100%;
+	font-size:85%;
+}
+	
+}
+
+@media screen and (max-width: 640px){
+	
+header {
+	width:100%;
+	color:blue;
+	border-bottom-style:none;
+}
+    
+h2{
+    font-size:175%;
+}
+    
+#mynamebox {
+    padding:1% 0% 0% 0%;
+    margin-left: 0%;
+    width:100%;
+    height:100%;
+    font-size:100%;
+}
+          
+#navbox {
+	margin-top:0px;
+	margin-right:3%;
+    width:100%;
+    box-sizing: border-box;
+    position:relative;
+    left:-5%;
+}
+    
+.navlinks{
+    padding-right:0%;
+    padding-left:0%;
+    font-size:100%;
+    width:36.3%;
+	
+}
+
+#navlinksend{
+	padding-right:0%;
+	padding-left:7%;
+	width:20%;
+	font-size:100%;
+}
+    
+#mainboxbackground {
+	border-top:medium;
+	border-top-style: solid;
+	border-top-color:#cccccc;
+    width:100%;
+    height:100%;
+}
+
+#mbbheightportfolio {
+    width:100%;
+    height:100%;
+}
+	
+#maincontentwindow {
+    width:80%;
+    height:100%;
+    margin-bottom:0%;
+    margin-top:3.67%;
+    margin-left:3.67%;
+}
+	
+#mainportfoliowindow {
+    margin-left:3.67%;
+    width:80%;
+    height:150%;
+    margin-bottom:0%;
+    margin-top:3.67%;
+}
+
+
+#maincontentheader{
+	width:104.25%;
+	margin-left:0%;
+	margin-right:0%;
+	
+}
+
+#mainindeximage{
+	width:104.25%;
+	margin-left:0%;
+}
+
+
+#paragraph1{
+	width:104.25%;
+	font-size:smaller;
+	font-weight:bolder;
+	line-height:1.70;
+	margin-right:0px;
+	margin-left:0px;
+}
+    
+#paragraph2{
+	width:104.25%;
+	font-size:smaller;
+	font-weight:bolder;
+	line-height:1.70;
+	margin-right:0px;
+	margin-left:0px;
+	
+
+}
+
+#textboxheaderfirst{
+	margin-left:0%;
+}
+
+
+.textboxheader{
+	margin-left:0%;
+}
+
+.textbox{
+	margin-left:0%;
+	margin-right:0%;
+	width:103.9%;
+}
+
+#textboxmessage{
+	margin-left:0%;
+	margin-right:0%;
+	width:103.15%;
+}
+
+#submitbutton{
+	width:25%;
+	margin-left:0%;
+	margin-bottom:5%;
+	
+}
+
+.imageboxleft{
+	margin-left:0%;
+	width:104.25%;
+	height:91%;
+	margin-top:7.1%;
+	margin-bottom:-15%;
+}
+
+.imageboxright{
+	margin-left: 0%;
+	width:104.25%;
+	height:91%;
+	margin-top:7.1%;
+	margin-bottom:-15%;
+}
+
+.portfolioimagesleft{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimagesright{
+	width:100%;
+	height:100%;
+}
+
+.portfolioimageheaderleft{
+	font-size:90%;
+	padding-top:1%;
+	padding-bottom:1%;
+	top:-60px;
+}
+
+.portfolioimageheaderright{
+	font-size:90%;
+	padding-top:1%;
+	padding-bottom:1%;
+	top:-60px;
+
+}
+
+#connectwindow{
+	width:92.4%;
+	margin-left:3.67%;	
+	margin-bottom:8%;
+	padding-bottom:2%;
+	height:100%;
+}
+
+h3{
+	font-size:100%;	
+}
+
+#connectheader{
+	width:92.4%;
+	margin-left:3.67%;
+	margin-right:3.67%;
+}
+
+#connectlogossection{
+	margin-left:5%;
+	margin-right:11.1%;
+	margin-top:0%;
+}
+
+.connectlogos{
+	margin-right:0%;
+	width:15.5%;
+	height:100%;
+	margin-bottom:2.75%;
+	padding-bottom:0
+		
+}
+
+#connectlogosstack{
+	padding-right:0%;
+	width:14.5%;
+	padding-top: 4.4%;
+	position: relative;
+	top:-1px;
+	}
+
+footer{
+	width:100%;
+	font-size:75%;
+}
+	
+}
+
