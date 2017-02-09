@@ -764,6 +764,7 @@ header {
 	width:100%;
 	color:blue;
 	border-bottom-style:none;
+	position:static;
 }
     
 h2{
